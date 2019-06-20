@@ -1,0 +1,7 @@
+
+server:
+  port: 8089
+
+kafka.consumer.servers: dev-kafka01-test.lianjia.com:9092,dev-kafka02-test.lianjia.com:9092,dev-kafka03-test.lianjia.com:9092
+kafka.consumer.serversForDynamicData: dev-kafka01-test.lianjia.com:9092,dev-kafka02-test.lianjia.com:9092,dev-kafka03-test.lianjia.com:9092
+kafka.topic.dynamic.data.queue: iprd-quque-customer-datasync
